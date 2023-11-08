@@ -1,7 +1,6 @@
 package entity;
 
 import java.awt.Graphics;
-import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +10,6 @@ import static constant.Constant.ActionConstant.*;
 
 public class Player extends Entity {
 
-    protected Rectangle rect;
     private int attackPoint;
     private BufferedImage img;
     private BufferedImage[][] animation;
